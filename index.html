@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Geo Search App</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>Current Weather Condition in  <span id="place">Timezone</span></h1>
+				<div class="icon">
+					<canvas id="icon" width="128" height="128"></canvas>
+					<div class="current-weather-condition">Sunny</div>	
+				</div>
+				<div class="weather-conditions">
+
+					<div class="details">
+						<div class="wind-speed">Wind Speed</div>
+						<div class="value" data-wind-speed>45</div>
+					</div>
+					<div class="details">
+						<div class="temperature">Temperature</div>
+						<div class="value" data-temperature>45<span>F</span></div>
+					</div>
+					<div class="details" id="humidity">
+						<div class="humidity">Humidity</div>
+						<div class="value" data-humidity>45</div>
+					</div>
+				
+					<input class="change-btn" type="submit" value="Convert Temperature to Celcius or Fareinheit">
+					
+				</div>
+
+
+					
+		</div>
+	<script src="skycons.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
